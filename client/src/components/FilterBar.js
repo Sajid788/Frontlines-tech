@@ -126,7 +126,7 @@ export default function FilterBar({
                       resetPage();
                       setInstructorOpen(false);
                     }}
-                    className={`w-full rounded-lg px-3 py-2 text-left text-sm transition-colors ${
+                    className={`w-full z-10 rounded-lg px-3 py-2 text-left text-sm transition-colors ${
                       selected ? "bg-violet-500/15 text-slate-100" : "text-slate-300 hover:bg-slate-900"
                     }`}
                     role="option"

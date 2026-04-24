@@ -111,7 +111,7 @@ export default function FilterBar({
 
           {instructorOpen ? (
             <div
-              className="thin-scrollbar absolute left-0 right-0 top-full mt-2 max-h-64 overflow-y-auto rounded-xl border border-slate-800 bg-slate-950 p-1 shadow-2xl shadow-black/40"
+              className="thin-scrollbar z-50 absolute left-0 right-0 top-full mt-2 max-h-64 overflow-y-auto rounded-xl border border-slate-800 bg-slate-950 p-1 shadow-2xl shadow-black/40"
               role="listbox"
               tabIndex={-1}
             >

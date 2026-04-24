@@ -69,7 +69,7 @@ export default function FilterBar({
           ) : null}
         </div>
 
-        <div className="relative">
+        <div className={`relative ${instructorOpen ? "z-50" : "z-10"}`}>
           <select
             value={category}
             onChange={(event) => {

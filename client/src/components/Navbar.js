@@ -8,7 +8,7 @@ export default function Navbar({ onExploreCourses }) {
           🎓
           </div>
           <span className="bg-gradient-to-r from-white to-slate-400 bg-clip-text text-xl font-extrabold text-transparent">
-            EduSphere
+            FrontLines
           </span>
         </div>
 
